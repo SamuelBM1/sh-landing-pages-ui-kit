@@ -1,0 +1,10 @@
+<div class="icon-container" [ngStyle]="{ width: Width, height: Height }">
+	<img
+		[src]="icons[Icon]"
+		[ngClass]="{
+			white: Color === 'white',
+			orange: Color === 'orange',
+			'light-gray': Color === 'light-gray'
+		}"
+	/>
+</div>
