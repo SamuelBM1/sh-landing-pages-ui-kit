@@ -11,6 +11,8 @@ import { LpChipsComponent } from './ui-kit/lp-chips/lp-chips.component';
 import { LpModalComponent } from './ui-kit/lp-modal/lp-modal.component';
 import { LpZipModalComponent } from './ui-kit/lp-zip-modal/lp-zip-modal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LpHeaderComponent } from './ui-kit/lp-header/lp-header.component';
+import { LpBodyTextComponent } from './ui-kit/lp-body-text/lp-body-text.component';
 
 
 
@@ -24,7 +26,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LpSelectComponent,
     LpChipsComponent,
     LpModalComponent,
-    LpZipModalComponent
+    LpZipModalComponent,
+    LpHeaderComponent,
+    LpBodyTextComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +44,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LpIconComponent,
     LpSelectComponent,
     LpModalComponent,
-    LpZipModalComponent
+    LpZipModalComponent,
+    LpHeaderComponent,
+    LpBodyTextComponent
   ]
 })
 export class UiKitModule { }
