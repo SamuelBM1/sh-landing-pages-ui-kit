@@ -1,4 +1,4 @@
-<div class="icon-container" [ngStyle]="{ width: Width, height: Height }">
+<div class="icon-container">
 	<img
 		[src]="icons[Icon]"
 		[ngClass]="{
@@ -6,5 +6,6 @@
 			orange: Color === 'orange',
 			'light-gray': Color === 'light-gray'
 		}"
+		[ngStyle]="{ width: Width, height: Height }"
 	/>
 </div>

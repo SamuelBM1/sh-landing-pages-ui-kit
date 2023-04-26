@@ -7,6 +7,8 @@ import { DialogsComponent } from './dialogs/dialogs.component';
 import { IconsComponent } from './icons/icons.component';
 import { InputsComponent } from './inputs/inputs.component';
 import { LoaderComponent } from './loader/loader.component';
+import { ComponentsModule } from '../components/components.module';
+import { UiKitModule } from 'src/shared/ui-kit.module';
 
 
 
@@ -21,7 +23,9 @@ import { LoaderComponent } from './loader/loader.component';
   ],
   imports: [
     CommonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ComponentsModule,
+    UiKitModule
   ],
   exports: [
     GetStartedComponent,

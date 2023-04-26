@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class GetStartedComponent {
 
+  openGithub() {
+    window.open("https://github.com/SamuelBM1/sh-landing-pages-ui-kit/tree/master/src/app/shared", "_blank");
+  }
+
 }

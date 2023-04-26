@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class LpHeaderComponent {
   @Input() Color: string = '#696969';
-  @Input() Header_Type: "header-1" | "header-2" | "header-3" = "header-1";
+  @Input() Header_Type: "header-1" | "header-2" | "header-3" | "header-4" = "header-1";
 }
